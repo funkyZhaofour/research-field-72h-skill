@@ -42,7 +42,7 @@ The skill itself is self-contained and includes `README.md`, `examples/`, and `t
 Clone the repository:
 
 ```bash
-git clone https://github.com/<owner>/research-field-72h-skill.git
+git clone https://github.com/funkyZhaofour/research-field-72h-skill.git
 cd research-field-72h-skill
 ```
 
