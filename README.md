@@ -12,6 +12,14 @@ It is designed as a router / orchestrator: given a research-field keyword, it de
 - Falls back to a generic 72-hour research SOP when no precise skill exists.
 - Produces structured artifacts: field map, paper matrix, terminology table, author profile, code/data audit, and final 72h report.
 
+## Inspiration and Attribution
+
+This skill was inspired by public educational content from [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) and related Douyin/Xiaohongshu posts about "陌生科研领域 72 小时快速破冰 SOP".
+
+The Xiaohongshu link shared by the maintainer is: <http://xhslink.com/o/8UvoK3EXDIF>.
+
+This repository is an independent Claude/Codex-compatible skill packaging of that workflow idea. It is not an official HKUDS/AI-Researcher release, fork, or affiliated project.
+
 ## Compatibility
 
 This repository uses the standard skill-directory layout:
@@ -110,6 +118,7 @@ The final Markdown report must include:
 ```text
 .
 ├── README.md
+├── ACKNOWLEDGEMENTS.md
 ├── LICENSE
 ├── skill-manifest.json
 ├── scripts/

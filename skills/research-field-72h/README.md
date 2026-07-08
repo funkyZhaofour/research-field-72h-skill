@@ -13,6 +13,14 @@
 
 如果没有精确匹配的 skill，它会执行通用 72 小时 SOP。
 
+## 灵感来源与致谢
+
+这个 skill 的 workflow 灵感来源于 [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) 项目相关的公开科普内容，以及抖音/小红书上关于“陌生科研领域 72 小时快速破冰 SOP”的帖子。
+
+维护者提供的小红书分享链接：<http://xhslink.com/o/8UvoK3EXDIF>。
+
+本仓库是对该 workflow 思路的 Claude/Codex skill 化封装，不是 HKUDS/AI-Researcher 的官方发布、fork 或关联项目。
+
 ## 典型用法
 
 ```text
