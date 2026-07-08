@@ -1,0 +1,35 @@
+{
+  "name": "research-field-72h",
+  "version": "1.0.0",
+  "description": "Claude/Codex-compatible router skill for a 72-hour SOP to break into an unfamiliar research field.",
+  "entrypoint": "skills/research-field-72h/SKILL.md",
+  "skill_directory": "skills/research-field-72h",
+  "compatibility": {
+    "claude": {
+      "install_path": "~/.claude/skills/research-field-72h",
+      "requires": ["SKILL.md"]
+    },
+    "codex": {
+      "install_path": "~/.codex/skills/research-field-72h",
+      "requires": ["SKILL.md"]
+    }
+  },
+  "artifacts": [
+    "templates/field_map.md",
+    "templates/paper_matrix.csv",
+    "templates/terminology_table.csv",
+    "templates/author_profile.csv",
+    "templates/code_data_audit.md",
+    "templates/final_72h_report.md"
+  ],
+  "tags": [
+    "research",
+    "literature-review",
+    "field-mapping",
+    "phd",
+    "related-work",
+    "reproducibility",
+    "router"
+  ],
+  "license": "MIT"
+}
