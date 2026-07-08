@@ -1,5 +1,7 @@
 # research-field-72h
 
+[中文说明](README.zh-CN.md)
+
 `research-field-72h` is a Claude/Codex-compatible research skill for the "72-hour unfamiliar research field breakthrough SOP".
 
 It is designed as a router / orchestrator: given a research-field keyword, it decides which existing research skills should be used, coordinates literature search, author/team mapping, terminology compression, code/data audit, directed reading, and final reporting.
@@ -118,6 +120,7 @@ The final Markdown report must include:
 ```text
 .
 ├── README.md
+├── README.zh-CN.md
 ├── ACKNOWLEDGEMENTS.md
 ├── LICENSE
 ├── skill-manifest.json

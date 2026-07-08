@@ -6,6 +6,7 @@ skill_dir="${repo_root}/skills/research-field-72h"
 
 required_files=(
   "README.md"
+  "README.zh-CN.md"
   "ACKNOWLEDGEMENTS.md"
   "LICENSE"
   "skill-manifest.json"
